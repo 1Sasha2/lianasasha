@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-background-color: aquamarine;
     font-size: 15px;
     line-height: 1.6;
     color: rgba(22, 211, 179, 0.507);
@@ -49,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro__title {
-    color: rgb(108, 247, 16);
+    color: rgba(247, 147, 16, 0.918);
     font-size: 150px;
     font-weight: 700;
     text-transform: uppercase;
@@ -112,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 15px;
     position: relative;
 
-    color: rgba(14, 179, 230, 0.747);
+    color: rgba(133, 14, 14, 0.747);
     text-decoration: none;
 
     transition: color .1s linear;
@@ -136,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav__link:hover {
-    color: #725f1898;
+    color: #13120e98;
 }
 
 .nav__link:hover:after,
@@ -145,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav__link.active {
-    color: #23c0f0e7;
+    color: #770e0ee7;
 }
 
 
@@ -168,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn:hover {
     background-color: rgb(253, 231, 246);
-    color: rgb(9, 51, 61);
+    color: rgb(162, 212, 224);
 }
 
 
@@ -193,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 0;
     position: relative;
 
-    border-top: 3px solid rgba(21, 139, 218, 0.671);
+    border-top: 3px solid rgba(195, 205, 212, 0.671);
     opacity: .7;
 
     font-size: 18px;
@@ -211,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 70px;
     height: 3px;
 
-    background-color: #81f3a385;
+    background-color: #9e101085;
 
     position: absolute;
     top: -3px;
@@ -258,12 +257,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 3px;
     margin: 30px auto;
 
-    background-color: #cbf381b6;
+    background-color: #be1010b6;
 }
 
 .section__text {
     font-size: 15px;
-    color: rgb(10, 104, 52);
+    color: rgb(104, 10, 73);
 }
 
 
@@ -279,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 380px;
     position: relative;
 
-    background-color: #093d34;
+    background-color: #d45b0b;
 }
 
 .about__item:hover .about__img {
@@ -342,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
     border-left: 1px solid #b5eae0;
 
     text-align: center;
-    color: rgba(41, 226, 17, 0.295);
+    color: rgba(226, 177, 17, 0.295);
 }
 
 .stat__item:last-child {
